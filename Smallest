@@ -1,0 +1,11 @@
+class SmallestTwo{
+    public static void main(String[] args){
+        int a[]={4,1,3,2};
+        int min=Integer.MAX_VALUE, smin=Integer.MAX_VALUE;
+        for(int i:a){
+            if(i<min){ smin=min; min=i; }
+            else if(i<smin) smin=i;
+        }
+        System.out.println(min+" "+smin);
+    }
+}
