@@ -1,0 +1,5 @@
+class Enc{
+    private int x;
+    void set(int x){ this.x=x; }
+    int get(){ return x; }
+}
