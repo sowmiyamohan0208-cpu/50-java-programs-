@@ -1,0 +1,31 @@
+// 41
+try{ int a=10/0; }catch(Exception e){ System.out.println(e); }
+
+// 42
+try{ int a[]=new int[2]; a[5]=1; }
+catch(ArithmeticException e){}
+catch(ArrayIndexOutOfBoundsException e){}
+
+// 43
+try{} finally{ System.out.println("Done"); }
+
+// 44
+class MyEx extends Exception{}
+
+// 45
+throw new ArithmeticException("Error");
+
+// 46
+class T extends Thread{ public void run(){ System.out.println("Thread"); } }
+
+// 47
+class R implements Runnable{ public void run(){ } }
+
+// 48
+new T().start();
+
+// 49
+Thread t=new Thread(); t.setPriority(10);
+
+// 50
+Thread t1=new Thread(); t1.start(); t1.join();
