@@ -1,0 +1,5 @@
+class Demo{
+    Demo(){ System.out.println("Default"); }
+    Demo(int a){ System.out.println(a); }
+    public static void main(String[] a){ new Demo(); new Demo(10); }
+}
