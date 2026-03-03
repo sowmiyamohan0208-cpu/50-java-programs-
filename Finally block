@@ -1,0 +1,9 @@
+ class FinallyDemo {
+    public static void main(String[] args) {
+        try {
+            int a = 5 / 1;
+        } finally {
+            System.out.println("This always executes.");
+        }
+    }
+}
