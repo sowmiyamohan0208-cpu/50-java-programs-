@@ -1,0 +1,4 @@
+interface Pay{ void pay(); }
+class GPay implements Pay{
+    public void pay(){ System.out.println("Paid"); }
+}
